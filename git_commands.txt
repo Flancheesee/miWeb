@@ -1,0 +1,29 @@
+git config --global user.name "nombre" // Para introducir tu usuario en git
+
+git config --global user.email mail@gmail.com // Para introducir tu correo en git
+
+git config --list // Lista de usuarios
+
+git create // Para crear un git en la carpeta en la que estas
+
+git status // para ver lo que contiene una rama 
+
+git init // 
+
+git commit -m archivo.png // Para subir un archivo a la rama
+
+git add archivo.txt (* para todos los archivos de la carpeta) // Para añadir archivos a la rama
+
+git branch // listar ramas existentes
+
+git branch "nombre rama" // Crea rama con el nombre "nombre rama"
+
+git checkout "nombre rama" // Cambia a la rama "nombre rama"
+
+git checkout -b "nombre rama" // Crea y cambia a la rama "nombre rama" 
+
+git tag "v1.0" // Para añadir una etiqueta a la version
+
+git tag -a "v1.2" -m "Arregla fallos" // es la version extendida para agregar descripción
+
+.gitignore
