@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    background: #022736;
+}
+
+header{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(77, 42, 110, 0.641);
+    border: 5px, solid, rgb(0, 0, 255);
+    margin: 15px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1{
+    background-color: transparent;
+}
