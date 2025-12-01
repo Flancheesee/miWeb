@@ -86,4 +86,35 @@ header {
     cursor: pointer;
 }
 
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu_vertical{
+    padding: 15px;
+    border-right: 5px black solid;
+    width: 30%;
+    height: auto;
+}
+
+#menu_vertical button{
+    padding: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    height: 40px;
+}
+
+#pagina_principal{
+    width: 70%;
+    height: auto;
+}
+
+#info_principal{
+    margin-left: 10px;
+    padding: auto;
+    width: 80%;
+}
 
